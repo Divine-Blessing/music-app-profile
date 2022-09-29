@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+#main{
+    min-height: 180vh;
+    background-color: #242424;
+    display: flex;
+    width: 100%;
+}
+#main .left{
+    width: 20%;
+    height: 180vh;
+    background-color: #0c1015;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 0 45px;
+    z-index: 10;
+}
+#main .left .logo img{
+    height: 70px;
+}
+#main .left h1{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#main .left a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 16px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    outline: none;
+}
+#main .left span{
+    display: flex;
+}
+#main .left .active{
+    color: #D27842;
+}
+#main .left a img{
+    height: 15px;
+    margin-right: 10px;
+}
+#main .left a .iconright{
+    position: absolute;
+    left: 200px;
+}
+#main .right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+#main .right .upimage{
+    position: absolute;
+    height: 350px;
+    left: 100px;
+}   
+#main .right .top{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 40px 0;
+    z-index: 10;
+}
+#main .right .top span{
+    font-size: 21px;
+    font-weight: 500;
+}
+#main .right .top h1{
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+#main .right .second{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+#main .right .second .side{
+    display: flex;
+    align-items: center;
+}
+#main .right .second img{
+    height: 80px;
+    margin-right: 15px;
+}
+#main .right .second h3{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+#main .right .second span button{
+    text-decoration: none;
+    color: #D27842;
+    border: 1px solid #D27842;
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: 12px;
+    width: 60px;
+    height: 27px;
+}
+#main .right .second span{
+    font-size: 18px;
+    font-weight: 500;
+}
+#main .right .second h2{
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 15px;
+}
+#main .third{
+    background-color: #0c10158f;
+    width: 90%;
+    height: 600px;
+    border-radius: 8px;
+    z-index: 10;
+    margin-top: 30px;
+    padding: 30px ;
+}
+#main .third .line{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    justify-content: space-between;
+}
+#main .third p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#main .third h3{
+    font-weight: 400;
+    font-size: 15px;
+}
+#main .third button{
+    background-color: #D27842;
+    color: white;
+    border: transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+#main .third hr{
+    width: 95%;
+    background-color: #d9d9d91e;
+    height: 0.2px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+#main .botabs{
+    position: absolute;
+    top: 900px;
+    left: 170px;
+    height: 270px;
+    rotate: 270deg;
+    opacity: 0.2;
+}
+#main .fourth{
+    background-color: #0c10158f;
+    width: 90%;
+    height: 150px;
+    border-radius: 8px;
+    z-index: 10;
+    margin-top: 30px;
+    padding: 30px ;
+}
+#main .fourth h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+#main .fourth span{
+    color: #D27842;
+}
+#main .fourth .down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 90%;
+}
+#main .fourth .down h2{
+    font-weight: 400;
+    font-size: 16px;
+}
+#main .fourth .down button{
+    background-color: #D27842;
+    color: white;
+    border: transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    height: 45px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1D1E20;
+    min-height: 16vh;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+footer .left{
+    height: 15vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCF9F8;
+}
+footer .left img{
+    height: 70px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+footer .left span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .left h5{
+    font-size: 19px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
+footer .left h6{
+    font-size: 17px;
+    letter-spacing: .5px;
+    font-weight: lighter;
+}
+footer .middle{
+    height: 11vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .middle .top{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .middle .botline{
+    height: 6px;
+    background-color: #FCF9F8;
+    width: 500px;
+    border-radius: 50px;
+}
+footer .middle .botline .inbot{
+    height: 6px;
+    background-color: #D27842;
+    width: 300px;
+    border-radius: 50px;
+}
+footer .middle button{
+    background-color: transparent;
+    border: none;
+    outline: 0;
+}
+footer .middle .pause{
+    background-color: #D27842;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+footer .right{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+}
+footer .right span{
+    height: 45px;
+    width: 45px;
+    background-color: #FCF9F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+footer .volume{
+    height: 30px;
+    margin: 0 10px;
+}
+footer .right .long{
+    background-color: #FCF9F8;
+    height: 6px;
+    width: 100px;
+    border-radius: 50px;
+}
+footer .right .long .inlong{
+    height: 6px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: #D27842;
+}
