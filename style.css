@@ -43,6 +43,8 @@
 }
 #main .left span{
     display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
 #main .left .active{
     color: #D27842;
@@ -51,9 +53,8 @@
     height: 15px;
     margin-right: 10px;
 }
-#main .left a .iconright{
-    position: absolute;
-    left: 200px;
+#main .left span .trash{
+    justify-content: flex-end;
 }
 #main .right{
     width: 80%;
@@ -318,4 +319,172 @@ footer .right .long .inlong{
     width: 60px;
     border-radius: 50px;
     background-color: #D27842;
+}
+
+
+/* RESPONSIVENESS */
+@media(max-width: 2560px )and (min-width: 2400px){
+    #main .botabs{
+        left: 390px;
+    }
+}
+@media(max-width: 2400px )and (min-width: 1500px){
+    #main .botabs{
+        display: none;
+    }
+}
+@media(max-width: 1250px){
+    #main .botabs{
+        display: none;
+    }
+}
+@media(max-width: 1100px){
+    #main{
+        min-height: 200vh;
+    }
+    #main .left{
+        min-height: 200vh;
+        padding: 40px 0 0 35px;
+    }
+    footer{
+        min-height: 14vh;
+        padding: 0 40px;
+    }
+    footer .left{
+        height: 14vh;
+    }
+    footer .left img{
+        height: 60px;
+    }
+    footer .left h5{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    footer .left h6{
+        font-size: 15px;
+    }
+    footer .middle{
+        height: 10vh;
+    }
+    footer .middle .top{
+        width: 45%;
+    }
+    footer .middle .botline{
+        height: 5px;
+        width: 500px;
+    }
+    footer .middle .botline .inbot{
+        height: 5px;
+        width: 60%;
+    }
+    footer .middle .pause{
+        height: 40px;
+        width: 40px;
+    }
+    footer .middle  .top button img{
+        height: 25px;
+    }
+    footer .middle .pause img{
+        height: 25px;
+    }
+    footer .right{
+        height: 14vh;
+    }
+    footer .right span{
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+    }
+    footer .right .long{
+        height: 5px;
+        width: 80px;
+    }
+    footer .right .long .inlong{
+        height: 5px;
+        width: 50%;
+    }
+}
+@media(max-width: 920px){
+    #main .left{
+        padding: 40px 0 0 30px;
+        width: 25%;
+    }
+    #main .left .logo img{
+        height: 60px;
+    }
+    #main .left h1{
+        font-size: 17px;
+    }
+    #main .left a{
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    #main .left span{
+        width: 90%;
+    }
+    #main .left span .trash{
+        width: 40%;
+    }
+    #main .left a img{
+        height: 13px;
+    }
+    #main .right{
+        width: 75%;
+    }
+    #main .right .upimage{
+        height: 250px;
+    }   
+    #main .right .top{
+        margin: 35px 0;
+    }
+    #main .right .top span{
+        font-size: 19x;
+    }
+    #main .right .top h1{
+        font-size: 15px;
+    }
+    #main .right .top img{
+        height: 25px;
+    }
+    #main .right .second img{
+        height: 70px;
+        margin-right: 12px;
+    }
+    #main .right .second h3{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    #main .right .second span button{
+        font-size: 11px;
+        width: 55px;
+        height: 23px;
+    }
+    #main .right .second span{
+        font-size: 16px;
+    }
+    #main .right .second h2{
+        font-size: 14px;
+    }
+    #main .third p{
+        font-size: 14px;
+    }
+    #main .third h3{
+        font-size: 14px;
+    }
+    #main .third button{
+        font-size: 13px;
+        height: 30px;
+        width: 60px;
+    }
+    #main .fourth h1{
+        font-size: 18px;
+    }
+    #main .fourth .down h2{
+        font-size: 14px;
+    }
+    #main .fourth .down button{
+        font-size: 13px;
+        height: 40px;
+        width: 80px;
+    }
 }
